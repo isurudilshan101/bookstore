@@ -141,6 +141,6 @@ class BookController extends Controller
         $book->update(['stock' => $current_stock]);
         //dd($current_stock ); 
         return redirect()->route('show_books')->with('success', 'Book Returned successfully !');
-        
+   
     }
 }

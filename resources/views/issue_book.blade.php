@@ -24,17 +24,6 @@
                 <input type="text" step="0.01" class="form-control w-50" id="user_name" name="user_name" required>
             </div>
 
-            {{--  <div class="mb-3">
-                <label for="stock" class="form-label">Issue</label>
-                <input type="text" class="form-control w-50" id="stock" name="issue" value="true">
-
-            </div>  --}}
-
-            {{--  <select class="form-control w-50 mb-4" id="issue"   name="issue" required>
-                <option value="1">True</option>
-                <option value="0">False</option>
-            </select>  --}}
-
             <div class="mb-3">
                 <label for="select_issue" class="form-label">Select Issue</label>
                 <select class="form-control w-50 mb-4" id="issue" name="issue" required>
@@ -46,6 +35,5 @@
             <button type="submit" class="btn btn-primary">Issue Book</button>
         </form>
     </div>
-   
 
 @endsection
